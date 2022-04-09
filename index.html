@@ -8,59 +8,71 @@
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/1fc572ad75.js" crossorigin="anonymous"></script>
 </head>
-
+<!--
+    File: index.html
+    Benjamin Gibbs
+    Contact: Benjamin.Gibbs2@gmail.com
+    
+    MIT Licensed - see http://opensource.org/licenses/MIT for details.
+    Anyone may freely use this code. Just don't sue me if it breaks stuff.
+    
+    Created: September 3rd, 2015.
+    
+    Last Updated: November 13th, 2021.
+    
+    Benjamin Gibbs' personal website. This site has information about him,
+    details about his education, skills, and links to his GitHub and LinkedIn
+    Profiles. This site is hosted on GitHub Pages.
+  -->
 
 <body>
     <div class="container">
-        <div class="header">
-        <header>
-            <h1>Benjamin Gibbs</h1>
-            <h2>this is a HEADER TO CHANGE </h2>
-            <nav class="main_links">
+
+  <div id="home">
+
+      </div>
                 <ul>
+                    <li style="float:left"><a class="active" href="#home"> Home</a></li>
+                                        <li><a href="#contact_me">Contact</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
                     <li><a href="#about"> About</a></li>
-                    <li><a href="https://www.linkedin.com/in/benjamin-gibbs2/"> LinkedIn</a> </li>
-                    <li><a href="#projectheader">Projects</a></li>
-                    <li><a href="#skillsnav">Skills</a></li>
-                    <li><a href="https://github.com/benjamin-gibbs-2"> Github</a></li>
-                    <li><a href="#contact">Contact Me</a></li>
+
+
+
+
 
 
                 </ul>
-                <section class="contact_icons">
- <div class="link-icons">
+                       <div class="header">
+        
+            <h1>Benjamin Gibbs</h1>
 
-    <a href="https://www.linkedin.com/in/benjamin-gibbs2/" target="_blank"> <img class="icon_image" src="Icons\LI-In-Bug.png"></a>
+         
 
-
-
-   
-    <a href="https://github.com/benjamin-gibbs-2" target="_blank"> <img class="icon_image" src="Icons\OctoCat.png"></a>
-
-
-
-    <a href="mailto: benjamin.gibbs2@gmail.com"> <img class="icon_image" src="Icons\gmailLogo.png"></a>
-
-</div>
-</section>
-            </nav>
-
-        </header>
+    
     </div>
     
-    
-    <h5>Insta icon </h5>   
-
+ 
+<section class="about_me_section" id="about">
+    <div class="about_me">
 <div class="bioInfo">
-    <h2>Bio</h2>
+   <div class="profile_photo">
+    <img alt="Photo of Benjamin Gibbs. Copyright B.A. Gibbs photography 2022" src="Icons\Benjamin Gibbs photo Copyright-BAGPhoto.jpg">
+    </div>
+    
 
 <div class="bioBody">
+    <h1>Benjamin Gibbs</h1>
     <p>BIO TEXT Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nisi sequi placeat, iusto facere atque necessitatibus assumenda explicabo quaerat qui, cupiditate doloribus facilis reiciendis aliquid quisquam laboriosam, vitae laborum at. </p>   
 </div>
 </div>
+</div>
+</section>
 
-<section class="projects-section">
+<section class="projects-section" id="projects">
 
 <div class="project" style="background-color:#aaa;">
     <div class="project-title">
@@ -72,8 +84,9 @@ some common crops.
 ▪ Plant height, sun requirements and recipes.
 ▪ Dynamic dates for indoor and outdoor planting based on the
 user’s Zip Code.</p>
-    <img class="project-image" src="Icons\chamomile_photo.jpg">
-
+<div class="project-image">
+    <img alt="Image of the 'Feed & Seed' project" src="Icons\chamomile_photo.jpg">
+</div>
 
     </div>
 </div>
@@ -86,7 +99,9 @@ user’s Zip Code.</p>
        <p>An album review site for viewing, rating, commenting on
 albums and songs
 ▪ Ability to add, delete, and modify songs and albums. </p>
-    <img class="project-image" src="Icons\chamomile_photo.jpg">
+    <div class="project-image">
+    <img alt="Image of the 'Project Adagio' project" src="Icons\chamomile_photo.jpg">
+</div>
     </div>
 </div>
 
@@ -101,7 +116,9 @@ their painting.
 ▪ Built on Spring and Thymeleaf to dynamically populate pages
 with information, pictures, and the ability to add reviews and
 ratings.</p>
-    <img class="project-image" src="Icons\chamomile_photo.jpg">
+    <div class="project-image">
+    <img alt="Image of 'Path of Art' project" src="Icons\chamomile_photo.jpg">
+</div>
     </div>
 </div>
 
@@ -119,7 +136,9 @@ selected by the user (geography, time period, weather events,
 etc…)
 ▪ Long term personal project started in excel and developing into
 a web application.</p>
-    <img class="project-image" src="Icons\chamomile_photo.jpg">
+ <div class="project-image">
+    <img alt="Image of the 'Wheaty Doome' project" src="Icons\chamomile_photo.jpg">
+</div>
     </div>
 </div>
 
@@ -129,24 +148,70 @@ a web application.</p>
     </div>
 <div class="project-body">
        <p>Honey Maker is an omage to the classic cookie clicker game, but with a sweet twist.</p>
-    <img class="project-image" src="Icons\chamomile_photo.jpg">
+  <div class="project-image">
+    <img alt="Image of the 'Honey Maker' project" src="Icons\chamomile_photo.jpg">
+</div>
     </div>
 </div>
 
 </section>
 
+<section id="skills">
+    <div class="skills_section">
+        
+         <div class="skill_blocks">
+            <img class="skill_img" src="">
+            <i class="fa-solid fa-graduation-cap fa-4x"></i>
+            <p>Certificiatations</p>
+            <p>certificate of software develpoment form WCCI(hyperlink)</p>
+        </div>
+        <div class="skill_blocks">
+            <img class="skill_img" src="">
+            <i class="fa fa-4x fa-code fa-4x"></i>
+            <p>Languages</p>
+            <p>list of coding languages - java, js, html5, etc</p>
+        </div>
+            
+        <div class="skill_blocks">
+           <i class="fa-regular fa-file-code fa-4x"></i>
+            <p>Skills</p>
+            <p>list of html, spring, other things</p>
+        </div>
+        <div class="skill_blocks">
+            <i class="fa-solid fa-seedling fa-4x"></i>
+            <p>Interesting hobbies?</p>
+            <p>list of hobies: gardning, D&D, camping, cats</p>
+        </div>
+        
+    
+    </div>
+</section>
 
 
 
-<div class="div17">Java * TDD *  </div>
+ 
+<footer>
+    <section id="contact_me">
+    <section class="contact_icons">
+ <div class="link-icons">
+<div class="icon_image">
+    <a href="https://www.linkedin.com/in/benjamin-gibbs2/" target="_blank"> <img alt="LinkedIn logo. Click to open my LinkedIn profile page" src="Icons\LI-In-Bug.png"></a>
+</div>
 
-<div class="div18">
-    <a herf="https://www.youtube.com/watch?v=dQw4w9WgXcQ"</>email me </a></div>
-<div class="div19">Photo caption? / Other info </div>
-<div class="div20"> Photp / other TEXT</div>
 
-</div> 
+   <div class="icon_image">
+    <a href="https://github.com/benjamin-gibbs-2" target="_blank"> <img alt="Github OctoCat logo. Click to open my GitHub profile page." src="Icons\OctoCat.png"></a>
+</div>
 
+<div class="icon_image">
+    <a href="mailto: benjamin.gibbs2@gmail.com"> <img alt="gmail logo. Click to open an email client to send me an email. My email address is: Benjamin.Gibbs2@gmail.com" src="Icons\gmailLogo.png"></a>
+</div>
+
+</div>
+</section>
+</section>
+    <p> Copyright &copy; 2022-<script>document.write(new Date().getFullYear())</script> Benjamin Gibbs All Rights Reserved</p>
+</footer>
 </body>
 
 </html>
