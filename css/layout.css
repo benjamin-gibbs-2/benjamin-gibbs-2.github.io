@@ -9,7 +9,12 @@
 }
 
 .container {
-    background-color: #eee;
+    /* background-color: #713E5A; */
+    /* background-color: #B784A7; */
+    /* background-color: #36A375; */
+    background-color: #EDC79B;
+    /* background-color: #D57A66; */
+    /* background-color: #006992; */
 }
 
 /* ************************* */
@@ -57,10 +62,11 @@ align-items: center;
 /* ******************************** */
 
 .link-icons {
-background-color: #eee;
+background-color: #EDC79B;
   display: flex;
  justify-content: space-around;
 padding: 20px;
+border: #006992 solid
 }
 .icon_image:hover{
     transform: scale(1.3);
@@ -120,13 +126,16 @@ border-right: 1px solid #bbb;
     text-decoration: none;
   }
   li a:hover{
-    background-color: #B784A7;
+    /* background-color: #B784A7; */
+    background-color: #D07073;
   }
   li a:hover:not(.active){
-    background-color: #04AA6D;
+    /* background-color: #04AA6D; */
+ background-color: #006992; 
   }
   .active {
-    background-color: #04AA6D;
+    /* background-color: #04AA6D; */
+     background-color: #006992; 
   }
 
 /* ****************************** */
@@ -139,7 +148,7 @@ border-right: 1px solid #bbb;
 }
 
 .skill_blocks {
-
+border: #006992 solid;
   flex: 25%;
   padding: 20px;
 }
@@ -170,6 +179,7 @@ i {
 .project {
 flex: 20%;
 padding: 20px;
+border: #006992 solid;
 }
 
 
