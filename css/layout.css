@@ -12,9 +12,12 @@
     /* background-color: #713E5A; */
     /* background-color: #B784A7; */
     /* background-color: #36A375; */
-    background-color: #EDC79B;
+    /* background-color: #EDC79B; */
     /* background-color: #D57A66; */
     /* background-color: #006992; */
+    /* background-color: #ACA885; */
+    /* background-color: #B6C197; */
+    background-color: #D5DDBC;
 }
 
 /* ************************* */
@@ -62,7 +65,9 @@ align-items: center;
 /* ******************************** */
 
 .link-icons {
-background-color: #EDC79B;
+/* background-color: #EDC79B; */
+    /* background-color: #B6C197; */
+        background-color: #D5DDBC;
   display: flex;
  justify-content: space-around;
 padding: 20px;
@@ -172,12 +177,13 @@ i {
 .projects-section{
     display: flex;
     flex-wrap: wrap;
+    background-color: #ddd;
 }
 
 
 
 .project {
-flex: 20%;
+flex: 25%;
 padding: 20px;
 border: #006992 solid;
 }
@@ -209,8 +215,12 @@ border: #006992 solid;
 
 .project-body {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 } 
 
+.project {
+  display: flex;
+  flex-direction: column;
+}
