@@ -1,11 +1,11 @@
 
-
-
-
-
 *{
     box-sizing: border-box;
-    
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-weight: bolder;
 }
 
 .container {
@@ -99,6 +99,7 @@ border: #006992 solid
 
 .header {
     display: flex;
+    justify-content: space-around;
 }
 
 
@@ -208,7 +209,7 @@ border: #006992 solid;
 .project-image img{
     /* box-sizing: border-box; */
     object-fit: contain;
-    height: 100px;
+    height: 10em;
     /* box-sizing: inherit; */
 
 }
